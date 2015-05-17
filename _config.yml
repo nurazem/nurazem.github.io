@@ -1,3 +1,10 @@
+# Dependencies
+markdown:         redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+highlighter:         pygments
+
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -5,9 +12,10 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Nurazem Kaldybaev
+tagline:             Ruby, Javascript, Python, Ruby on Rails, Ember, Angular, React, Software Engineering
+url:                 http://www.nurazem.com
+shorturl:            nurazem.com
 paginate:            1
 baseurl:             ""
 
@@ -20,11 +28,19 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Nurazem Kaldybaev
+  url:               https://twitter.com/nurazem
+  email:             nurazemkg@gmail.com
 
 # Custom vars
 version:             1.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/nurazem/nurazem.github.io
+
+# This is the list of pages to include in the header of the website.
+pages_list:
+  About: '/about/'
+  Archive: '/archive/'
+
+gems:
+  - jekyll-redirect-from
