@@ -2,6 +2,7 @@
 <html lang="en">
 
   {% include head.html %}
+  {% include google_analytics.html %}
 
   <body>
 
@@ -15,9 +16,9 @@
         </h3>
       </header>
 
-      <main>
-        {{ content }}
-      </main>
+
+      {{ content }}
+      {% include comments.html %}
 
       <footer class="footer">
         <small>
